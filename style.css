@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'customfont';
+    src: url('Satisfy-Regular.ttf') format('truetype');
+}
+
+.text {
+    font-size: 1.5em;
+    font-family: 'customfont', sans-serif;
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.img-limited {
+    max-height: 60vh;
+    object-fit: cover;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
